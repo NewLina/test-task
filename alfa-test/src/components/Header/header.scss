@@ -1,0 +1,22 @@
+@import '../general.scss';
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: $blue;
+    font-family: $quicksand;
+}
+
+.header__text {
+    padding: 3% 0 2% 4%;
+    font-size: 3rem;
+    color: $white;
+
+}
+
+@media screen and (min-width: 1500px){
+    .header__text{
+        font-size: 2rem;
+    }
+}
