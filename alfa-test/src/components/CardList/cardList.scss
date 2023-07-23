@@ -1,1 +1,12 @@
 @import '../general.scss';
+
+.card-list-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    row-gap: 1%;
+    column-gap: 1%;
+    text-align: center;
+    margin: 0% 3% 5% 3%;
+    padding: 2% 2% 5% 2%;
+};
+

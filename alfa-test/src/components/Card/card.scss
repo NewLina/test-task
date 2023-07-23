@@ -1,1 +1,29 @@
 @import '../general.scss';
+
+.card{
+    max-height: 35vh;
+    display: grid;
+    grid-template-rows: 45% 25% 15% 1fr ;
+    border: 2px solid $dark-blue;
+    padding: 5%;
+    row-gap: 2%;
+    column-gap: 2%;
+    font-family: $quicksand;
+    font-size: 0.93rem;
+    font-weight: $semibold;
+};
+.card__image-container{
+    width: 100%;
+}
+.card-image{
+    width: 100%;
+    object-fit: contain;
+    max-height: 100%
+};
+
+.card__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3% 0 3%;
+}
